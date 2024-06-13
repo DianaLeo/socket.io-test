@@ -6,4 +6,7 @@ export default defineNuxtConfig({
       websocket: true
     }
   },
+  runtimeConfig: {
+    host: "0.0.0.0",
+  },
 })
